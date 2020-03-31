@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bird
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 6d6226b76e8334d7a8da086682d4a58e, type: 3}
+    - {fileID: 2800000, guid: e45b5c325b3bf474ea9ebd16ab4d7e11, type: 3}
+    - {fileID: 2800000, guid: 25c0a3b125f38415480a5be4fc0e0793, type: 3}
+    - {fileID: 2800000, guid: e6d67470178594272ac78c5173f9684b, type: 3}
+    - {fileID: 2800000, guid: 6cae6ae1bcc324bed9bfe2470140423e, type: 3}
+    - {fileID: 2800000, guid: b337d52ba8a694a079272fca60fc3b58, type: 3}
+    - {fileID: 2800000, guid: c0fd0ead41a1e43a28133c152d32fc09, type: 3}
+    - {fileID: 2800000, guid: 6213d69a937a14271851376845627c60, type: 3}
+    - {fileID: 2800000, guid: 553bd25a85ad844319b694c2351a5201, type: 3}
+    - {fileID: 2800000, guid: 4ce19fe540d37447ba6b5364affd6cb5, type: 3}
+    - {fileID: 2800000, guid: 8231fd47c51be489d91945824d83577d, type: 3}
+    - {fileID: 2800000, guid: fba5214299bd7494bba9e66aad8ef75e, type: 3}
+    - {fileID: 2800000, guid: f0bf46cadc3fd44929adafbfef95f263, type: 3}
+    - {fileID: 2800000, guid: 31c49b54f60f54327ae41d09e0b3f1ee, type: 3}
+    - {fileID: 2800000, guid: 427180fdc7a7d40f39d3ff3dac43b525, type: 3}
+    - {fileID: 2800000, guid: 4dba6412f605b476fadbd76be62e44df, type: 3}
+    totalSpriteSurfaceArea: 1048576
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e6d67470178594272ac78c5173f9684b, type: 3}
+  - {fileID: 21300000, guid: 25c0a3b125f38415480a5be4fc0e0793, type: 3}
+  - {fileID: 21300000, guid: 6cae6ae1bcc324bed9bfe2470140423e, type: 3}
+  - {fileID: 21300000, guid: 4dba6412f605b476fadbd76be62e44df, type: 3}
+  - {fileID: 21300000, guid: e45b5c325b3bf474ea9ebd16ab4d7e11, type: 3}
+  - {fileID: 21300000, guid: fba5214299bd7494bba9e66aad8ef75e, type: 3}
+  - {fileID: 21300000, guid: 31c49b54f60f54327ae41d09e0b3f1ee, type: 3}
+  - {fileID: 21300000, guid: 4ce19fe540d37447ba6b5364affd6cb5, type: 3}
+  - {fileID: 21300000, guid: 8231fd47c51be489d91945824d83577d, type: 3}
+  - {fileID: 21300000, guid: 6d6226b76e8334d7a8da086682d4a58e, type: 3}
+  - {fileID: 21300000, guid: 553bd25a85ad844319b694c2351a5201, type: 3}
+  - {fileID: 21300000, guid: 6213d69a937a14271851376845627c60, type: 3}
+  - {fileID: 21300000, guid: f0bf46cadc3fd44929adafbfef95f263, type: 3}
+  - {fileID: 21300000, guid: b337d52ba8a694a079272fca60fc3b58, type: 3}
+  - {fileID: 21300000, guid: c0fd0ead41a1e43a28133c152d32fc09, type: 3}
+  - {fileID: 21300000, guid: 427180fdc7a7d40f39d3ff3dac43b525, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 0003
+  - 0002
+  - 0004
+  - 0015
+  - 0001
+  - 0011
+  - 0013
+  - 0009
+  - 0010
+  - 0000
+  - 0008
+  - 0007
+  - 0012
+  - 0005
+  - 0006
+  - 0014
+  m_Tag: Bird
+  m_IsVariant: 0

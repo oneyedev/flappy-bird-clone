@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | %UNITY_WEB_NAME%</title>
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%");
+        window.onload = function () {
+            const canvas = document.getElementById("#canvas");
+            if (window.innerHeight < window.innerWidth) {
+                const height = window.innerHeight;
+                const width = 0.5 * height;
+                canvas.width = width;
+                canvas.height = height;
+            } else {
+                const width = window.innerWidth;
+                const height = 2 * width;
+                canvas.width = width;
+                canvas.height = height;
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script>
+        firebase.initializeApp({
+            apiKey: "AIzaSyDp8zKvVFsYQw1w-AjWcE5HUeGhxXx8PF8",
+            authDomain: "webgame-de6b5.firebaseapp.com",
+            databaseURL: "https://webgame-de6b5.firebaseio.com",
+            projectId: "webgame-de6b5",
+            storageBucket: "webgame-de6b5.appspot.com",
+            messagingSenderId: "271714613355",
+            appId: "1:271714613355:web:f93f5b6458cb9fa760592e",
+            measurementId: "G-CYL8J2GG6H"
+        });
+    </script>
+</body>
+
+</html>

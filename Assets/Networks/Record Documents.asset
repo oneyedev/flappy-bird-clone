@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca57cb74d6e5f40b69949785e1cd3e5a, type: 3}
+  m_Name: Record Documents
+  m_EditorClassIdentifier: 
+  network: {fileID: 11400000, guid: fb4b13b7aa747492793111b588205df4, type: 2}
+  logging:
+    editor: 1
+    developmentBuild: 1
+    releaseBuild: 0
+  baseUrl: https://firestore.googleapis.com/v1/
+  parent:
+    editor: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/
+    developmentBuild: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/stage/
+    releaseBuild: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/prod/
+  collectionId: records
+  pageSize: 10
+  pageToken: ALumMsUszwLuBoXyVjEB57rYvukPC5CibTsBBC3PAmO9swYBcNPFriVQOgq-MZSQGL-KXXKhQoa84hoV7LdRXiGTjn5nAcnqw_h3LO-tz4Yt6WeLnFixEHAX0tMR_FVysL6QNeiF5Umq_oOeD0lYY5mww-1nDYKkh8sTLzAwHfYLZkPJHJTNobUF8rgyfa_Z0TiQtF9yzO8vVA
+  orderBy: score desc, timestamp asc
+  list:
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/RkFf9uaDBl4jFJRvh1bi
+    createTime: 2020-03-30T04:41:19.359133Z
+    updateTime: 2020-03-30T04:41:19.359133Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T04:41:19.036Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/iMyet8It2Jy8KnQJr1Sj
+    createTime: 2020-03-30T04:41:25.758643Z
+    updateTime: 2020-03-30T04:41:25.758643Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T04:41:25.404Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/wSSNeLRo9yrWHiJSOFZR
+    createTime: 2020-03-30T04:42:08.674396Z
+    updateTime: 2020-03-30T04:42:08.674396Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T04:42:08.353Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/FOzkP7RNF6aRpnn9iUfq
+    createTime: 2020-03-30T04:42:52.504182Z
+    updateTime: 2020-03-30T04:42:52.504182Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T04:42:52.196Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/G6gPtygE3E1kEAK26RgA
+    createTime: 2020-03-30T08:19:23.659190Z
+    updateTime: 2020-03-30T08:19:29.488364Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: aaa
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T08:19:23.368Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/nhZB7llrwmitF82qmc6E
+    createTime: 2020-03-30T08:19:42.188203Z
+    updateTime: 2020-03-30T08:19:58.454092Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: dd
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T08:19:41.784Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/JccBHhCrgU6SOdTvtuUA
+    createTime: 2020-03-30T13:10:33.013117Z
+    updateTime: 2020-03-30T13:10:33.013117Z
+    fields:
+      uid:
+        stringValue: gb8Qlf7G0aV3or1peuRajjSAMPv2
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-30T13:10:32.646Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/GkHOk0LA171QYF1AucHx
+    createTime: 2020-03-31T08:31:42.270067Z
+    updateTime: 2020-03-31T08:31:42.270067Z
+    fields:
+      uid:
+        stringValue: uid
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 1
+      timestamp:
+        timestampValue: 2020-03-31T08:31:41.940Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/1M11zwMy3BQuZDcNIdAs
+    createTime: 2020-03-30T04:47:29.190748Z
+    updateTime: 2020-03-30T04:47:29.190748Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 0
+      timestamp:
+        timestampValue: 2020-03-30T04:47:28.874Z
+  - name: projects/webgame-de6b5/databases/(default)/documents/flappy-bird-clone/dev/records/lyDkERvcC6vsz4NLXpr2
+    createTime: 2020-03-30T04:51:05.074987Z
+    updateTime: 2020-03-30T04:51:05.074987Z
+    fields:
+      uid:
+        stringValue: 
+      name:
+        stringValue: New Player
+      score:
+        integerValue: 0
+      timestamp:
+        timestampValue: 2020-03-30T04:51:04.775Z

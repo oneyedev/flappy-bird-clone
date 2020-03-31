@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007f4105395f946f1bc888c4049be508, type: 3}
+  m_Name: FirebaseNetwork
+  m_EditorClassIdentifier: 
+  config:
+    apiKey: AIzaSyDp8zKvVFsYQw1w-AjWcE5HUeGhxXx8PF8
+    authDomain: webgame-de6b5.firebaseapp.com
+    databaseURL: https://webgame-de6b5.firebaseio.com
+    projectId: webgame-de6b5
+    storageBucket: webgame-de6b5.appspot.com
+    messagingSenderId: 271714613355
+    appId: 1:271714613355:web:f93f5b6458cb9fa760592e
+    measurementId: G-CYL8J2GG6H
+  state:
+    editor:
+      uid: 
+      token: 
+    developmentBuild:
+      uid: 
+      token: 
+    releaseBuild:
+      uid: 
+      token: 
+  stubMessage:
+    editor: 1
+    developmentBuild: 0
+    releaseBuild: 0
+  listenerObjectName: Firebase Network

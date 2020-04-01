@@ -4,30 +4,33 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | flappy-bird-clone</title>
+    <title>Flappy Bird Clone</title>
+    <link rel="stylesheet" href="./webgame.css" type="text/css">
     <script src="Build/UnityLoader.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/flappy-bird-v1.json");
-        window.onload = function () {
-            const canvas = document.getElementById("#canvas");
-            if (window.innerHeight < window.innerWidth) {
-                const height = window.innerHeight;
-                const width = 0.5 * height;
-                canvas.width = width;
-                canvas.height = height;
-            } else {
-                const width = window.innerWidth;
-                const height = 2 * width;
-                canvas.width = width;
-                canvas.height = height;
-            }
-        };
+        var gameInstance = UnityLoader.instantiate("game_instance", "Build/docs.json");
     </script>
 </head>
 
 <body>
-    <div style="display: flex; justify-content: center;">
-        <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
+    <div id="game_container">
+        <div id="game_instance"></div>
+        <div id="footer">
+            <div>
+                <div style="font-size: 24px;">Flappy Bird Clone - optimized for chrome</div>
+                <div style="font-size: 18px;">
+                    Cloned by <a href="https://oneyedev.github.io/" target="_blank">oneyedev</a>.
+                    Original game is <a href="https://flappybird.io/" target="_blank">here</a>
+                </div>
+            </div>
+            <button id="fullscreen">
+                <svg viewBox="0 0 24 24" onclick="gameInstance.SetFullscreen(true)">
+                    <path fill="currentColor"
+                        d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" />
+                </svg>
+            </button>
+
+        </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>

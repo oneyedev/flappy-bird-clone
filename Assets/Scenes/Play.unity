@@ -1132,6 +1132,7 @@ GameObject:
   - component: {fileID: 208946491}
   - component: {fileID: 208946490}
   - component: {fileID: 208946489}
+  - component: {fileID: 208946492}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -1276,6 +1277,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208946487}
   m_CullTransparentMesh: 0
+--- !u!114 &208946492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208946487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e712430d4c794be385bfedacd3d5d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Flappy Bird Clone
+  message: Please Enter Your Name
+  inputType: text
+  inputPlaceholder: Only Alphanumeric ( limit 10 )
 --- !u!1 &233809644
 GameObject:
   m_ObjectHideFlags: 0

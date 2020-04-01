@@ -1,0 +1,33 @@
+#game_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#game_instance{
+    width: calc(100vw - 50px);
+    height: calc(100vh - 220px);
+}
+#footer{
+    border: solid black 1px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: calc(100vw - 50px);
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#fullscreen{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+#fullscreen:hover svg {
+    transform: scale(1.2);
+}
